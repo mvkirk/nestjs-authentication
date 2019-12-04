@@ -6,7 +6,7 @@
   "password": "root",
   "database": "blogprojectnest",
   "entities": ["dist/**/**.entity{.ts,.js}"],
-  "migrations": ["db/migrations/*.js"],
+  "migrations": ["dist/db/migrations/*.js"],
   "cli": {
       "migrationsDir": "db/migrations",
       "entitiesDir": "src"
